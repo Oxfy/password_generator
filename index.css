@@ -1,3 +1,77 @@
-*{
-    margin: 0px auto;
+            /*------ Universal settings ---------*/
+body{
+    font-family: Karla, sans-serif;
+}
+                    
+            /*------ Basic background layout -----*/
+
+main{
+    background-color: #1C1C1C;
+    width: 700px;
+    height: 678px;
+    display: flex;
+}
+
+#container{
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 10%;
+}
+
+            /*------App design settings ------*/
+
+#text_container{
+    margin: 115px 0px 0px 52px;
+}
+
+#generate{
+    background-color: #10B981;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+}
+
+hr{
+    color: #2F3E53;
+    margin: 35px 52px;
+}
+
+.password_parent{
+    display: flex;
+    flex-direction: row;
+}
+.password{
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    margin: 35px, 24px 0 0;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#pass_two{
+    margin: 0px 0px 0px 24px;
+}
+
+                /*------ Text settings -----*/
+h1{
+    font-size: 40;
+    font-weight: 800;
+    color: #F3F4F6;
+    margin-bottom: 10px;
+}
+
+.green{
+    color: #6EE7B7;
+}
+
+h2{
+    color: #D5D4D8;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 51px;
 }
