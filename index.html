@@ -9,20 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body>    
     <main>
         <article id="container">
             <div id="text_container">
                 <h1>Generate a <br/><span class="green">random password</span></h1>
                 <h2>Never use an insecure password again.</h2>
-                <button id="generate">Generate passwords</button>
+                <button id="generate" onclick="generatePasswords()">Generate passwords</button>
                 <hr/>
                 <div class="password_parent">
-                    <div class="password" class="green" id="pass_one"></div>
-                    <div class="password" class="green" id="pass_two"></div>
+                    <div id="pass_one" class="password" class="green"><p id="word_one" class="output"></p></div>
+                    <div id="pass_two" class="password" class="green"><p id="word_two" class="output"></p></div>
                 </div>
             </div>
         </article>
+        <script src="index.js"></script>
     </main>
 </body>
 </html>

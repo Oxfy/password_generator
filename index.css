@@ -46,11 +46,13 @@ hr{
 }
 .password{
     background-color: #273549;
+    color: #55F991;
     width: 211px;
     height: 39px;
     margin: 35px, 24px 0 0;
     border-radius: 6px;
     font-size: 16px;
+    text-align: center;
 }
 
 #pass_two{
@@ -74,4 +76,8 @@ h2{
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 51px;
+}
+
+.output{
+    margin-top: 10px;
 }
